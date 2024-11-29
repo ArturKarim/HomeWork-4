@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  color: #e50043;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 30px;
+}
+a {
+  color: #e50043;
+  font-size: 50px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("evian_origins_logo.png");
+  height: 950px;
+}
+.logo-text {
+  color: #e50043;
+  font-size: 100px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px 200px;
+  gap: 150px;
+}
+.banner {
+  width: 1050px;
+  height: 300px;
+  border: 1px solid;
+  gap: 50px;
+  border-color: #e50043;
+  border-radius: 20px;
+}
+.top-banner {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  padding: 24px;
+}
+.images {
+  display: flex;
+  width: 1040px;
+  height: 965px;
+  justify-content: space-between;
+}
+.card {
+  width: 280px;
+  height: 965px;
+}
+.card-text {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 48px;
+  width: 248px;
+}
+.banner-img {
+  width: 101px;
+  height: 220px;
+}
+.bottom-banner {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 30px;
+}
+.bottom-banner-text {
+  letter-spacing: 0.05em;
+  font-size: 25px;
+  padding: 24px;
+  width: 750px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  background-color: pink;
+  font-size: 50px;
+  color: white;
+  padding: 50px;
+}
